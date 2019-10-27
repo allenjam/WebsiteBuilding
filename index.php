@@ -1,13 +1,13 @@
 <?php
 //Processing  of information from front-end.
-$first=filter_input($_POST,'email');
-$second=filter_input($_POST,'fName');
-$third =filter_input($_POST,'lName');
-$fourth=filter_input($_POST,'address');
-$fifth=filter_input($_POST,'city');
-$sixth =filter_input($_POST,'state');
-$seventh=filter_input($_POST,'code');
-$eighth=filter_input($_POST,'phone');
+$first=filter_input(INPUT_POST,'email');
+$second=filter_input(INPUT_POST,'fName');
+$third =filter_input(INPUT_POST,'lName');
+$fourth=filter_input(INPUT_POST,'address');
+$fifth=filter_input(INPUT_POST,'city');
+$sixth =filter_input(INPUT_POST,'state');
+$seventh=filter_input(INPUT_POST,'code');
+$eighth=filter_input(INPUT_POST,'phone');
  
 ?> 
  <!DOCTYPE html>
