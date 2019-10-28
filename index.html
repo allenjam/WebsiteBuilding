@@ -63,10 +63,44 @@
 					 <input type="text" name="code" id="code"><br>
 					 <label for="phone">Phone:</label>
 					 <input type="text" name="phone" id="phone"><br>
-					 <input type="submit" value="SUBMIT"><br>
 					 
-					 
-                     </fieldset>					 
+					 </fieldset>
+					 <fieldset>
+					 <legend>Ordering Information</legend>
+					 <label  for="package">Order Type:</label>
+					 <select  name="package"  id="package">
+					      <option value="member">MEMBER PACKAGE</option>
+						  <option value="deluxe"  selected>DELUXE PACKAGE</option>
+						  <option  value="temporary">TEMP PACKAGE</option>
+				    </select><br>		  
+                     <label  for="tickets">Number of tickets:</label>
+					 <input type="text" name="tickets" id="tickets" placeholder="number of singles tickets"><br>
+                    </fieldset>
+                    <fieldset  id="beta">
+					      <legend>Payment method</legend>
+						  
+						  <input type="radio" name="pay"   value="cash">BILL ME:<br>
+						  
+						  <input type ="radio" name="pay"  value="Credit  Card">Credit  Card:<br>
+                    </fieldset>
+                    <fieldset id="gamma">
+					      <legend>Credit  Card Information</legend>
+						  <label  for="theta">Card Type:</label>
+						  <select name="credit" id="theta">
+						    <option value="visa">VISA</option>
+							<option value="mastercard">MASTERCARD</option>
+							<option value="discovery" selected>DISCOVERY</option>
+							<option value="AMEX">AMEX</option>
+						 </select><br>
+                         <label  for="cardNum">Card Number:</label>
+                         <input type="text" name="cardNum"	id="cardNum"><br>
+                         <label for="month">Exp.Date:</label>
+						 <input  type="month" name="month" id="month"><br>
+					</fieldset>
+					<fieldset  id="psi">
+                    <legend>Submit  your Order:</legend>
+                    <button  type="submit">SUBMIT</button>&nbsp;<button type="reset">RESET</button><br>					
+					</fieldset>
 					 </form>
 			</section>
 		  </main>

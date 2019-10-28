@@ -52,7 +52,25 @@ header,footer,article,aside,section,figure{
 section input[type=submit]{
          text-indent:20px;
 }
-			 
+	select{
+           margin-left:10px;
+           margin-bottom:20px;
+    }
+    #beta{
+		   width:375px;
+		   margin-left:210px;
+           margin-bottom:20px;  		   
+    }
+    #gamma{
+           width:375px;
+           margin-left:210px;
+           margin-bottom:20px;
+    }
+    #psi{
+        width:375px;
+        margin-left:210px;
+        margin-bottom:20px;
+	}		
     footer{
            clear:left;
 		   text-align:center;
