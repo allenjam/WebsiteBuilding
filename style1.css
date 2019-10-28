@@ -60,7 +60,17 @@ section input[type=submit]{
 		   width:375px;
 		   margin-left:210px;
            margin-bottom:20px;  		   
-    }		
+    }
+    #gamma{
+           width:375px;
+           margin-left:210px;
+           margin-bottom:20px;
+    }
+    #psi{
+        width:375px;
+        margin-left:210px;
+        margin-bottom:20px;
+	}		
     footer{
            clear:left;
 		   text-align:center;
