@@ -66,6 +66,12 @@ $month =filter_input(INPUT_POST,'month');
 				 <h3>STATE: <?php echo  htmlspecialchars($sixth);?></h3>
 				 <h3>ZIP CODE: <?php echo  htmlspecialchars($seventh);?></h3>
 				 <h3>PHONE NUMBER: <?php echo  htmlspecialchars($eighth);?></h3>
+				 <h3>Order Type:<?php echo htmlspecialchars($content);?></h3>
+				 <h3>Number of Tickets:<?php echo htmlspecialchars($tickets);?></h3>
+				 <h3>Payment Method:<?php echo htmlspecialchars($payMethod);?></h3>
+				 <h3>Card Type:<?php echo htmlspecialchars($creditType);?></h3>
+				 <h3>Card Number:<?php echo htmlspecialchars($cardNum);?></h3>
+				 <h3>EXP.Date:<?php echo htmlspecialchars($month);?></h3>
          </main>
          <footer>
 		      <p>&copy;2015,San Joaquin Town Hall,Fresno CA 937355</p>
