@@ -25,6 +25,33 @@ header,footer,article,aside,section,figure{
     header p{
        text-indent:130px;
     }
+	nav  ul{
+		  clear:left;
+	}
+	nav ul li{
+		      float:left;
+			  list-style-type:none;
+			  width:198px;
+			  border-right:2px solid white;
+			  background-color:black;
+			  text-align:center;
+			  
+	}
+		 
+	nav  ul li a{
+		       
+		       /**width:198px;**/
+			   /**border-right:2px solid white;**/
+			   /**text-align:right;**/
+			   text-decoration:none;
+			   /**background-color:black;**/
+			   color:white;
+			   
+	}
+	li.last{
+		     border-right:none;
+	}
+		   
     span{
           text-shadow: 2px 2px 2px blue;
     
