@@ -27,19 +27,20 @@ header,footer,article,aside,section,figure{
     }
 	nav  ul{
 		  clear:left;
+		  list-style-type:none;
 	}
 	nav ul li{
 		      float:left;
-			  list-style-type:none;
-			  width:198px;
-			  border-right:2px solid white;
-			  background-color:black;
-			  text-align:center;
+			  
 			  
 	}
 		 
 	nav  ul li a{
-		       
+		         width:198px;
+			     border-right:2px solid white;
+			     background-color:black;
+			     text-align:center;
+		         display:block;
 		       /**width:198px;**/
 			   /**border-right:2px solid white;**/
 			   /**text-align:right;**/
