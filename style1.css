@@ -98,7 +98,28 @@ section input[type=submit]{
         width:375px;
         margin-left:210px;
         margin-bottom:20px;
-	}		
+	}
+	#exhibit1{
+		    background-image=url('toobin75.jpg');  
+	}
+     #exhibit1:hoover{
+		      backgound-image=url('chua75.jpg');
+
+     }
+	#exhibit2{
+		      list-style-type:none;
+			  
+	}
+	#exhibit2 li{
+		         display:inline;
+				 
+	}
+	#exhibit2 li  a{
+		            width:78px;
+					border-right:2px  solid  black;
+					display:block;
+					
+	}
     footer{
            clear:left;
 		   text-align:center;

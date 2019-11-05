@@ -4,12 +4,12 @@ $action  = filter_input(INPUT_POST,'action');
  if(!isset($action)){
    $action  = filter_input(INPUT_GET,'action');
    if(!isset($action)){
-       $action = 'one';
+       $action = 'unknown';
 	   }
    }
    
 switch($action){
-    case 'one':
+    case 'unknown':
 	   include('index2.php');
 	   break;
 	case 'two':
@@ -56,7 +56,13 @@ if($credit == "visa"){
 $cardNum =filter_input(INPUT_POST,'cardNum');
 $month =filter_input(INPUT_POST,'month');
        include('first.php');
-       break;	   
+       break;
+case 'four':
+      //processing for image swap and image rollover  
+      $src = filter_input(INPUT_GET,'src');
+	  $alt = filter_input(INPUT_GET,'alt');
+	  include('result.php');
+	  break;	   
 
 }
 
