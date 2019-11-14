@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html  lang="en">
+     <head>
+	     <meta  charset="utf-8">
+		 <meta  name="description"   content="A website displaying the  use of arrays">
+		 <meta  name="keywords"      content="task,Manager">
+		 <title>TaskvList Manager</title>
+		 <link rel="shortcut  icon"  href="favicon.ico">
+		 <link rel="stylesheet"  href="index1.css">
+		 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	 </head>
+	 <body>
+	   <header>
+	       <img  src="town_hall_logo.gif" alt="Logo for website">
+		   <h1>TASK  LIST MANAGER</h1>
+	   </header>
+	   <nav>
+	   </nav>
+	   <main>
+	       <h2>Tasks:</h2>  
+		   
+		   <h2>ADD TASK:</h2>
+		   <form action="./indexA.php"  method="post">
+		   <input type="hidden" name="action" value="add">
+		    <label>Task:</label>
+			<input type="text" name="task">
+			<input type="submit"  value="SUBMIT"><br>
+		   </form>
+		   <h2>DELETE TASK:</h2>
+		   <form action="./indexA.php"  method="post">
+		       <input type="hidden" name="action" value="delete">
+		      <label>TASK:</label>
+			  <input type="text"  name="taskid"><br>
+              <input  type="submit" value="SUBMIT"><br>			  
+		   </form>
+	   </main>
+	   <footer>
+	          <address>
+			           This website was created by<br>
+                       James  Allen. contact number :<br>
+                        647-342-4239.<br>					   
+			  </address>
+	   </footer>
+	 </body>
+ </html>	 
