@@ -1,0 +1,53 @@
+header,footer,article,aside,section,nav,figure{
+                                               display:block;
+											   }
+	*{
+      margin:none;
+      padding:none;
+    }
+    body{
+         font-family:Helvetica,Arial,sans-serifs;
+         font-size:90%;
+         font-weight:normal;
+         font-style:normal;
+         font-variant:normal;
+         width:800px;
+         margin:0 auto;
+         border:2px  solid  black;
+    }
+    header img{
+               float:left;
+    }
+    main{
+     clear:left;
+    } 	 
+	main label{
+		       float:left;
+			   width:80px;
+			   text-align:right;
+			   font-weight:bold;
+	}
+	main input{
+		       margin-left:10px;
+               margin-bottom:10px;
+			   width:200px;
+	}
+	main input[type=submit]{
+                            width:100px;
+	}							
+	footer{
+		    border-top:2px  solid  black;
+			background-color:maroon;
+			color:white;
+			text-align:center;
+	}
+
+
+
+
+
+
+
+
+			   
+          		
